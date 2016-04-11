@@ -1,0 +1,5 @@
+{
+  "name": "git-github",
+  "version": "1.0.0",
+  "bin": "bin/github"
+}
