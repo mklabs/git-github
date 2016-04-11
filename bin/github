@@ -14,5 +14,9 @@ Ex. git github username/repo
 fi
 
 echo ... Cloning $1 in $dir ...
-echo "$ git clone git@github.com:$1.git $dir$1"
+
+echo """
+>> git clone git@github.com:$1.git $dir$1
+"""
+
 git clone git@github.com:$1.git $dir$1
